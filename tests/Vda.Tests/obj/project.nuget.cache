@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fSL4giyRGh7p+06XwhRrh+Jc9xhyDe8MHzD7ViZ+ouhnoRLqUkeIX1pfbm3LecWF9sziyt6BYQR0LHiQ1TXIyA==",
+  "dgSpecHash": "bXLnLprZkN5Y4HWxCfC38x0m3KfRZqW9U20YDwIL3Kqr0osXJe+MY/IEdIL9MnBu3pndjvzDmPhnRwPlgLzoTQ==",
   "success": true,
-  "projectFilePath": "F:\\Windows\\Documents\\software_projects\\Vda\\tests\\vda.tests\\Vda.Tests.csproj",
+  "projectFilePath": "F:\\Windows\\Documents\\software_projects\\Vda\\tests\\Vda.Tests\\Vda.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gkika\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\gkika\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
