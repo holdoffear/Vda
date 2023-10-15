@@ -1,0 +1,5 @@
+#tests
+tests/Vda.Tests/bin/Debug
+
+#src
+src/Vda/bin/Debug
