@@ -1,0 +1,12 @@
+F:\Windows\Documents\software_projects\Vda\src\Vda\bin\Debug\net7.0\Vda.deps.json
+F:\Windows\Documents\software_projects\Vda\src\Vda\bin\Debug\net7.0\Vda.dll
+F:\Windows\Documents\software_projects\Vda\src\Vda\bin\Debug\net7.0\Vda.pdb
+F:\Windows\Documents\software_projects\Vda\src\Vda\obj\Debug\net7.0\Vda.csproj.AssemblyReference.cache
+F:\Windows\Documents\software_projects\Vda\src\Vda\obj\Debug\net7.0\Vda.GeneratedMSBuildEditorConfig.editorconfig
+F:\Windows\Documents\software_projects\Vda\src\Vda\obj\Debug\net7.0\Vda.AssemblyInfoInputs.cache
+F:\Windows\Documents\software_projects\Vda\src\Vda\obj\Debug\net7.0\Vda.AssemblyInfo.cs
+F:\Windows\Documents\software_projects\Vda\src\Vda\obj\Debug\net7.0\Vda.csproj.CoreCompileInputs.cache
+F:\Windows\Documents\software_projects\Vda\src\Vda\obj\Debug\net7.0\Vda.dll
+F:\Windows\Documents\software_projects\Vda\src\Vda\obj\Debug\net7.0\refint\Vda.dll
+F:\Windows\Documents\software_projects\Vda\src\Vda\obj\Debug\net7.0\Vda.pdb
+F:\Windows\Documents\software_projects\Vda\src\Vda\obj\Debug\net7.0\ref\Vda.dll
