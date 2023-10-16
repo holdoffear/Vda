@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Windows\\Documents\\software_projects\\Vda\\tests\\vda.tests\\Vda.Tests.csproj": {}
+    "F:\\Windows\\Documents\\software_projects\\Vda\\tests\\Vda.Tests\\Vda.Tests.csproj": {}
   },
   "projects": {
     "F:\\Windows\\Documents\\software_projects\\Vda\\src\\Vda\\Vda.csproj": {
@@ -63,14 +63,14 @@
         }
       }
     },
-    "F:\\Windows\\Documents\\software_projects\\Vda\\tests\\vda.tests\\Vda.Tests.csproj": {
+    "F:\\Windows\\Documents\\software_projects\\Vda\\tests\\Vda.Tests\\Vda.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Windows\\Documents\\software_projects\\Vda\\tests\\vda.tests\\Vda.Tests.csproj",
+        "projectUniqueName": "F:\\Windows\\Documents\\software_projects\\Vda\\tests\\Vda.Tests\\Vda.Tests.csproj",
         "projectName": "Vda.Tests",
-        "projectPath": "F:\\Windows\\Documents\\software_projects\\Vda\\tests\\vda.tests\\Vda.Tests.csproj",
+        "projectPath": "F:\\Windows\\Documents\\software_projects\\Vda\\tests\\Vda.Tests\\Vda.Tests.csproj",
         "packagesPath": "C:\\Users\\gkika\\.nuget\\packages\\",
-        "outputPath": "F:\\Windows\\Documents\\software_projects\\Vda\\tests\\vda.tests\\obj\\",
+        "outputPath": "F:\\Windows\\Documents\\software_projects\\Vda\\tests\\Vda.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
