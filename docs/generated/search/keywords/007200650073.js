@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("res",["Function"],[["Resize",,[["Vda.DynamicArray",,,,0,"File:DynamicArray.cs:Vda.DynamicArray.Resize","CSharpClass:Vda.DynamicArray:Resize"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("cre",["Function"],[["CreateSpan",,[["Vda.DynamicArray",,,,0,"File:DynamicArray.cs:Vda.DynamicArray.CreateSpan","CSharpClass:Vda.DynamicArray:CreateSpan"]]]]);
