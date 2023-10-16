@@ -1,1 +1,0 @@
-﻿NDSearch.OnPrefixDataLoaded("ind",["Operator"],[["Indexer",,[["Vda.DynamicArray",,,,0,"File:DynamicArray.cs:Vda.DynamicArray.Indexer","CSharpClass:Vda.DynamicArray:Indexer"]]]]);

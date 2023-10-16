@@ -1,1 +1,0 @@
-﻿NDSearch.OnPrefixDataLoaded("swa",["Function"],[["SwapIndices",,[["Vda.DynamicArray",,,,0,"File:DynamicArray.cs:Vda.DynamicArray.SwapIndices","CSharpClass:Vda.DynamicArray:SwapIndices"]]]]);

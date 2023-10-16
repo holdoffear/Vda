@@ -1,1 +1,0 @@
-﻿NDSearch.OnPrefixDataLoaded("rem",["Function"],[["Remove",,[["Vda.DynamicArray",,,,0,"File:DynamicArray.cs:Vda.DynamicArray.Remove","CSharpClass:Vda.DynamicArray:Remove"]]],["RemoveAt",,[["Vda.DynamicArray",,,,0,"File:DynamicArray.cs:Vda.DynamicArray.RemoveAt","CSharpClass:Vda.DynamicArray:RemoveAt"]]]]);
