@@ -9,7 +9,7 @@
 # This is where you put general information about your project.  None of these
 # settings are required, though Title is recommended.
 #
-# Title: [text]
+# Title: Vda
 #    The name of your project.  (R) and (TM) will be converted to their
 #    respective symbols.
 #
