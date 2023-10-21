@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_vda_1_1_dynamic_array" kind="class" language="C#" prot="public">
+    <compoundname>Vda::DynamicArray</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_vda_1_1_dynamic_array_1aa090b157aad3806f08a70396155210e6" prot="private" static="no" mutable="no">
+        <type>T[]</type>
+        <definition>T [] Vda.DynamicArray&lt; T &gt;.DataArray</definition>
+        <argsstring></argsstring>
+        <name>DataArray</name>
+        <qualifiedname>Vda.DynamicArray.DataArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="10" column="19" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vda_1_1_dynamic_array_1add252b88599ded64e110781e5de850da" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Vda.DynamicArray&lt; T &gt;.length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <qualifiedname>Vda.DynamicArray.length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="13" column="21" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_vda_1_1_dynamic_array_1a334a4fe78fdcdde42ee03767ca5f45a6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Vda.DynamicArray&lt; T &gt;.Length</definition>
+        <argsstring></argsstring>
+        <name>Length</name>
+        <qualifiedname>Vda.DynamicArray.Length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="16" column="20" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vda_1_1_dynamic_array_1ae6bd1515a3201c2129c9b0446aa7862b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ref T</type>
+        <definition>ref T Vda.DynamicArray&lt; T &gt;.this[int i]</definition>
+        <argsstring></argsstring>
+        <name>this[int i]</name>
+        <qualifiedname>Vda.DynamicArray.this[int i]</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="24" column="22" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="25" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_vda_1_1_dynamic_array_1ac4d54722a6c081f149e2ebf9bfbe479c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Vda.DynamicArray&lt; T &gt;.DynamicArray</definition>
+        <argsstring>()</argsstring>
+        <name>DynamicArray</name>
+        <qualifiedname>Vda.DynamicArray.DynamicArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="17" column="16" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="17" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vda_1_1_dynamic_array_1abd6498cf0f7646ecf87d88d677a1c5b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vda.DynamicArray&lt; T &gt;.Add</definition>
+        <argsstring>(T item)</argsstring>
+        <name>Add</name>
+        <qualifiedname>Vda.DynamicArray.Add</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="37" column="21" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="37" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vda_1_1_dynamic_array_1a81c7006446f2866df9914c934e7908d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Vda.DynamicArray&lt; T &gt;.Contains</definition>
+        <argsstring>(T item)</argsstring>
+        <name>Contains</name>
+        <qualifiedname>Vda.DynamicArray.Contains</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="48" column="21" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vda_1_1_dynamic_array_1a6497b6d84bd00d92a21cbbcba98caafb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vda.DynamicArray&lt; T &gt;.Remove</definition>
+        <argsstring>(T item)</argsstring>
+        <name>Remove</name>
+        <qualifiedname>Vda.DynamicArray.Remove</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="64" column="21" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="64" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vda_1_1_dynamic_array_1a0c288390b3cb0832b2e4685e41774ce0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vda.DynamicArray&lt; T &gt;.RemoveAt</definition>
+        <argsstring>(int index)</argsstring>
+        <name>RemoveAt</name>
+        <qualifiedname>Vda.DynamicArray.RemoveAt</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="75" column="21" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="75" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_vda_1_1_dynamic_array_1ac0b98b4d4b1696d4a5b35c372fa70c51" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Span&lt; T &gt;</type>
+        <definition>static Span&lt; T &gt; Vda.DynamicArray&lt; T &gt;.CreateSpan</definition>
+        <argsstring>(T[] array, int start, int length)</argsstring>
+        <name>CreateSpan</name>
+        <qualifiedname>Vda.DynamicArray.CreateSpan</qualifiedname>
+        <param>
+          <type>T[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="54" column="28" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="54" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vda_1_1_dynamic_array_1a0dec5b46d4e0b0bddf0e6eed5e16d3c5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Vda.DynamicArray&lt; T &gt;.Resize&lt; T2 &gt;</definition>
+        <argsstring>(ref T2[] array, int newSize)</argsstring>
+        <name>Resize&lt; T2 &gt;</name>
+        <qualifiedname>Vda.DynamicArray.Resize&lt; T2 &gt;</qualifiedname>
+        <param>
+          <type>ref T2[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="86" column="23" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vda_1_1_dynamic_array_1a66a6d2c33c35ea3c1799672a061d0d25" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Vda.DynamicArray&lt; T &gt;.SwapIndices</definition>
+        <argsstring>(Array array, int indexA, int indexB)</argsstring>
+        <name>SwapIndices</name>
+        <qualifiedname>Vda.DynamicArray.SwapIndices</qualifiedname>
+        <param>
+          <type>Array</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>indexA</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>indexB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="93" column="28" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="93" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="6" column="11" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="7" bodyend="99"/>
+    <listofallmembers>
+      <member refid="class_vda_1_1_dynamic_array_1abd6498cf0f7646ecf87d88d677a1c5b4" prot="public" virt="non-virtual"><scope>Vda::DynamicArray</scope><name>Add</name></member>
+      <member refid="class_vda_1_1_dynamic_array_1a81c7006446f2866df9914c934e7908d7" prot="public" virt="non-virtual"><scope>Vda::DynamicArray</scope><name>Contains</name></member>
+      <member refid="class_vda_1_1_dynamic_array_1ac0b98b4d4b1696d4a5b35c372fa70c51" prot="public" virt="non-virtual"><scope>Vda::DynamicArray</scope><name>CreateSpan</name></member>
+      <member refid="class_vda_1_1_dynamic_array_1aa090b157aad3806f08a70396155210e6" prot="private" virt="non-virtual"><scope>Vda::DynamicArray</scope><name>DataArray</name></member>
+      <member refid="class_vda_1_1_dynamic_array_1ac4d54722a6c081f149e2ebf9bfbe479c" prot="public" virt="non-virtual"><scope>Vda::DynamicArray</scope><name>DynamicArray</name></member>
+      <member refid="class_vda_1_1_dynamic_array_1add252b88599ded64e110781e5de850da" prot="private" virt="non-virtual"><scope>Vda::DynamicArray</scope><name>length</name></member>
+      <member refid="class_vda_1_1_dynamic_array_1a334a4fe78fdcdde42ee03767ca5f45a6" prot="public" virt="non-virtual"><scope>Vda::DynamicArray</scope><name>Length</name></member>
+      <member refid="class_vda_1_1_dynamic_array_1a6497b6d84bd00d92a21cbbcba98caafb" prot="public" virt="non-virtual"><scope>Vda::DynamicArray</scope><name>Remove</name></member>
+      <member refid="class_vda_1_1_dynamic_array_1a0c288390b3cb0832b2e4685e41774ce0" prot="public" virt="non-virtual"><scope>Vda::DynamicArray</scope><name>RemoveAt</name></member>
+      <member refid="class_vda_1_1_dynamic_array_1a0dec5b46d4e0b0bddf0e6eed5e16d3c5" prot="public" virt="non-virtual"><scope>Vda::DynamicArray</scope><name>Resize&lt; T2 &gt;</name></member>
+      <member refid="class_vda_1_1_dynamic_array_1a66a6d2c33c35ea3c1799672a061d0d25" prot="public" virt="non-virtual"><scope>Vda::DynamicArray</scope><name>SwapIndices</name></member>
+      <member refid="class_vda_1_1_dynamic_array_1ae6bd1515a3201c2129c9b0446aa7862b" prot="public" virt="non-virtual"><scope>Vda::DynamicArray</scope><name>this[int i]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

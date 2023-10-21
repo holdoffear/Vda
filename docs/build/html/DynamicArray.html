@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>DynamicArray &#8212; Vda 1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b3523f8e" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=039e1c02" />
+    <script src="_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to Vda’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="dynamicarray">
+<h1>DynamicArray<a class="headerlink" href="#dynamicarray" title="Link to this heading">¶</a></h1>
+<dl class="cs class">
+<dt class="sig sig-object cs" id="class-DynamicArray">
+<span class="target" id="class_dynamic_array"></span><em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">DynamicArray</span></span><span class="pre">&lt;</span><span class="pre">T</span><span class="pre">&gt;</span><a class="headerlink" href="#class-DynamicArray" title="Link to this definition">¶</a></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cs function">
+<dt class="sig sig-object cs" id="function-DynamicArray.Add">
+<span class="target" id="class_dynamic_array_1a8c1afe4c5e9f45f2e38f280b5aa6e089"></span><span class="pre">void</span> <span class="sig-name descname"><span class="pre">Add</span></span> <span class="sig-paren">(</span><span class="pre">T</span> <em><span class="pre">item</span></em><span class="sig-paren">)</span><a class="headerlink" href="#function-DynamicArray.Add" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="cs function">
+<dt class="sig sig-object cs" id="function-DynamicArray.Contains">
+<span class="target" id="class_dynamic_array_1ab5872fd21a7d6bf9ba90379ab16833bb"></span><span class="pre">bool</span> <span class="sig-name descname"><span class="pre">Contains</span></span> <span class="sig-paren">(</span><span class="pre">T</span> <em><span class="pre">item</span></em><span class="sig-paren">)</span><a class="headerlink" href="#function-DynamicArray.Contains" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="cs function">
+<dt class="sig sig-object cs" id="function-DynamicArray.Remove">
+<span class="target" id="class_dynamic_array_1a1bb47e86b890ffb02e094c1d0888a0c6"></span><span class="pre">void</span> <span class="sig-name descname"><span class="pre">Remove</span></span> <span class="sig-paren">(</span><span class="pre">T</span> <em><span class="pre">item</span></em><span class="sig-paren">)</span><a class="headerlink" href="#function-DynamicArray.Remove" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="cs function">
+<dt class="sig sig-object cs" id="function-DynamicArray.RemoveAt">
+<span class="target" id="class_dynamic_array_1a6d4dfcddcea20b62bb042f2011900491"></span><span class="pre">void</span> <span class="sig-name descname"><span class="pre">RemoveAt</span></span> <span class="sig-paren">(</span><span class="pre">int</span> <em><span class="pre">index</span></em><span class="sig-paren">)</span><a class="headerlink" href="#function-DynamicArray.RemoveAt" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-properties">Properties</p>
+<dl class="cs property">
+<dt class="sig sig-object cs" id="property-DynamicArray.Length">
+<span class="target" id="class_dynamic_array_1abca4ff22f80750b77d729bca63c35011"></span><span class="pre">int</span> <span class="sig-name descname"><span class="pre">Length</span></span> <span class="pre">{</span> <em class="property"><span class="pre">get;</span> <span class="pre">set;</span></em> <span class="pre">}</span><a class="headerlink" href="#property-DynamicArray.Length" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="cs property">
+<dt class="sig sig-object cs">
+<span class="target" id="class_dynamic_array_1aca4b16b1dfc8ba98067bc78d30753f8c"></span><span class="sig-name descname"><span class="pre">ref</span> <span class="pre">T</span> <span class="pre">this[int</span> <span class="pre">i]</span> <span class="pre">{get;set;}</span></span></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cs function">
+<dt class="sig sig-object cs" id="function-DynamicArray.CreateSpan">
+<span class="target" id="class_dynamic_array_1af3f96c8124a361afad6071b4811f7668"></span><span class="pre">Span</span><span class="pre">&lt;</span><span class="pre">T</span><span class="pre">&gt;</span> <span class="sig-name descname"><span class="pre">CreateSpan</span></span> <span class="sig-paren">(</span><span class="pre">T</span><span class="pre">[]</span> <em><span class="pre">array</span></em>, <span class="pre">int</span> <em><span class="pre">start</span></em>, <span class="pre">int</span> <em><span class="pre">length</span></em><span class="sig-paren">)</span><a class="headerlink" href="#function-DynamicArray.CreateSpan" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="cs function">
+<dt class="sig sig-object cs" id="function-DynamicArray.Resize">
+<span class="target" id="class_dynamic_array_1a78266a32cc70ad0c815c5ec3143e9b4c"></span><span class="pre">void</span> <span class="sig-name descname"><span class="pre">Resize</span></span><span class="pre">&lt;</span><span class="pre">T2</span><span class="pre">&gt;</span> <span class="sig-paren">(</span><em class="property"><span class="pre">ref</span></em> <span class="pre">T2</span><span class="pre">[]</span> <em><span class="pre">array</span></em>, <span class="pre">int</span> <em><span class="pre">newSize</span></em><span class="sig-paren">)</span><a class="headerlink" href="#function-DynamicArray.Resize" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="cs function">
+<dt class="sig sig-object cs" id="function-DynamicArray.SwapIndices">
+<span class="target" id="class_dynamic_array_1a09b8308b1936dc4d1c93850ac5ecd293"></span><span class="pre">void</span> <span class="sig-name descname"><span class="pre">SwapIndices</span></span> <span class="sig-paren">(</span><span class="pre">Array</span> <em><span class="pre">array</span></em>, <span class="pre">int</span> <em><span class="pre">indexA</span></em>, <span class="pre">int</span> <em><span class="pre">indexB</span></em><span class="sig-paren">)</span><a class="headerlink" href="#function-DynamicArray.SwapIndices" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<hr class="docutils" />
+<dl class="cs class">
+<dt class="sig sig-object cs">
+<span class="target" id="class_dynamic_array"></span><em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">DynamicArray</span></span><span class="pre">&lt;</span><span class="pre">T</span><span class="pre">&gt;</span></dt>
+<dd><p>A class that represents a dynamic array </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cs function">
+<dt class="sig sig-object cs" id="function-DynamicArray.DynamicArray">
+<span class="target" id="class_dynamic_array_1a9f83e4192eb01b2c0631ef67e6ba3f38"></span><span class="sig-name descname"><span class="pre">DynamicArray</span></span> <span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#function-DynamicArray.DynamicArray" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="cs function">
+<dt class="sig sig-object cs">
+<span class="target" id="class_dynamic_array_1a8c1afe4c5e9f45f2e38f280b5aa6e089"></span><span class="pre">void</span> <span class="sig-name descname"><span class="pre">Add</span></span> <span class="sig-paren">(</span><span class="pre">T</span> <em><span class="pre">item</span></em><span class="sig-paren">)</span></dt>
+<dd><p>Function: Add Adds an item of type T to DataArray </p>
+</dd></dl>
+
+<dl class="cs function">
+<dt class="sig sig-object cs">
+<span class="target" id="class_dynamic_array_1ab5872fd21a7d6bf9ba90379ab16833bb"></span><span class="pre">bool</span> <span class="sig-name descname"><span class="pre">Contains</span></span> <span class="sig-paren">(</span><span class="pre">T</span> <em><span class="pre">item</span></em><span class="sig-paren">)</span></dt>
+<dd><p>Function: Contains Determines whether the item of type T exists within DataArray </p>
+</dd></dl>
+
+<dl class="cs function">
+<dt class="sig sig-object cs">
+<span class="target" id="class_dynamic_array_1a1bb47e86b890ffb02e094c1d0888a0c6"></span><span class="pre">void</span> <span class="sig-name descname"><span class="pre">Remove</span></span> <span class="sig-paren">(</span><span class="pre">T</span> <em><span class="pre">item</span></em><span class="sig-paren">)</span></dt>
+<dd><p>Function: Remove Removes item of type T from DataArray </p>
+</dd></dl>
+
+<dl class="cs function">
+<dt class="sig sig-object cs">
+<span class="target" id="class_dynamic_array_1a6d4dfcddcea20b62bb042f2011900491"></span><span class="pre">void</span> <span class="sig-name descname"><span class="pre">RemoveAt</span></span> <span class="sig-paren">(</span><span class="pre">int</span> <em><span class="pre">index</span></em><span class="sig-paren">)</span></dt>
+<dd><p>Function: RemoveAt Removes item of type T from index</p>
+<p>Note*: Throws exception if index is &lt; 0 or &gt; length</p>
+<p>~length refers to the field length of the class~ </p>
+</dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-properties">Properties</p>
+<dl class="cs property">
+<dt class="sig sig-object cs">
+<span class="target" id="class_dynamic_array_1abca4ff22f80750b77d729bca63c35011"></span><span class="pre">int</span> <span class="sig-name descname"><span class="pre">Length</span></span> <span class="pre">{</span> <em class="property"><span class="pre">get;</span> <span class="pre">set;</span></em> <span class="pre">}</span></dt>
+<dd><p>Property: length Public accessor for length variable. </p>
+</dd></dl>
+
+<dl class="cs property">
+<dt class="sig sig-object cs">
+<span class="target" id="class_dynamic_array_1aca4b16b1dfc8ba98067bc78d30753f8c"></span><span class="sig-name descname"><span class="pre">ref</span> <span class="pre">T</span> <span class="pre">this[int</span> <span class="pre">i]</span> <span class="pre">{get;set;}</span></span></dt>
+<dd><p>Operator: Indexer The public accessor for DataArray. Returns a reference to DataArray </p>
+</dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cs function">
+<dt class="sig sig-object cs">
+<span class="target" id="class_dynamic_array_1af3f96c8124a361afad6071b4811f7668"></span><span class="pre">Span</span><span class="pre">&lt;</span><span class="pre">T</span><span class="pre">&gt;</span> <span class="sig-name descname"><span class="pre">CreateSpan</span></span> <span class="sig-paren">(</span><span class="pre">T</span><span class="pre">[]</span> <em><span class="pre">array</span></em>, <span class="pre">int</span> <em><span class="pre">start</span></em>, <span class="pre">int</span> <em><span class="pre">length</span></em><span class="sig-paren">)</span></dt>
+<dd><p>Function: CreateSpan Creates a Span of type T from provided array from start index to provided length </p>
+</dd></dl>
+
+<dl class="cs function">
+<dt class="sig sig-object cs">
+<span class="target" id="class_dynamic_array_1a78266a32cc70ad0c815c5ec3143e9b4c"></span><span class="pre">void</span> <span class="sig-name descname"><span class="pre">Resize</span></span><span class="pre">&lt;</span><span class="pre">T2</span><span class="pre">&gt;</span> <span class="sig-paren">(</span><em class="property"><span class="pre">ref</span></em> <span class="pre">T2</span><span class="pre">[]</span> <em><span class="pre">array</span></em>, <span class="pre">int</span> <em><span class="pre">newSize</span></em><span class="sig-paren">)</span></dt>
+<dd><p>Function: Resize Resizes a given array of type T2 to provided newSize </p>
+</dd></dl>
+
+<dl class="cs function">
+<dt class="sig sig-object cs">
+<span class="target" id="class_dynamic_array_1a09b8308b1936dc4d1c93850ac5ecd293"></span><span class="pre">void</span> <span class="sig-name descname"><span class="pre">SwapIndices</span></span> <span class="sig-paren">(</span><span class="pre">Array</span> <em><span class="pre">array</span></em>, <span class="pre">int</span> <em><span class="pre">indexA</span></em>, <span class="pre">int</span> <em><span class="pre">indexB</span></em><span class="sig-paren">)</span></dt>
+<dd><p>Function: SwapIndices Swaps position of element at indexA with position of element at indexB within the provided array </p>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Vda</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">DynamicArray</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to Vda’s documentation!</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, holdoffear.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/DynamicArray.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

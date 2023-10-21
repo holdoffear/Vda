@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.6" xml:lang="en-US">
+  <compound refid="class_dynamic_array" kind="class"><name>DynamicArray</name>
+    <member refid="class_dynamic_array_1adbfe562cc14680a30e9877dccd6eca1a" kind="variable"><name>DataArray</name></member>
+    <member refid="class_dynamic_array_1a89abaedc16fc0a009815cf43cfd50ebe" kind="variable"><name>length</name></member>
+    <member refid="class_dynamic_array_1abca4ff22f80750b77d729bca63c35011" kind="property"><name>Length</name></member>
+    <member refid="class_dynamic_array_1aca4b16b1dfc8ba98067bc78d30753f8c" kind="property"><name>this[int i]</name></member>
+    <member refid="class_dynamic_array_1a9f83e4192eb01b2c0631ef67e6ba3f38" kind="function"><name>DynamicArray</name></member>
+    <member refid="class_dynamic_array_1a8c1afe4c5e9f45f2e38f280b5aa6e089" kind="function"><name>Add</name></member>
+    <member refid="class_dynamic_array_1ab5872fd21a7d6bf9ba90379ab16833bb" kind="function"><name>Contains</name></member>
+    <member refid="class_dynamic_array_1a1bb47e86b890ffb02e094c1d0888a0c6" kind="function"><name>Remove</name></member>
+    <member refid="class_dynamic_array_1a6d4dfcddcea20b62bb042f2011900491" kind="function"><name>RemoveAt</name></member>
+    <member refid="class_dynamic_array_1af3f96c8124a361afad6071b4811f7668" kind="function"><name>CreateSpan</name></member>
+    <member refid="class_dynamic_array_1a78266a32cc70ad0c815c5ec3143e9b4c" kind="function"><name>Resize&lt; T2 &gt;</name></member>
+    <member refid="class_dynamic_array_1a09b8308b1936dc4d1c93850ac5ecd293" kind="function"><name>SwapIndices</name></member>
+  </compound>
+  <compound refid="namespace_vda" kind="namespace"><name>Vda</name>
+  </compound>
+  <compound refid="_dynamic_array_8cs" kind="file"><name>DynamicArray.cs</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>F:/Windows/Documents/software_projects/Vda/src</name>
+  </compound>
+  <compound refid="dir_3f87a3c5de49b456e82d5a809061177e" kind="dir"><name>F:/Windows/Documents/software_projects/Vda/src/Vda</name>
+  </compound>
+</doxygenindex>

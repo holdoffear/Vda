@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Vda &#8212; Vda 1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b3523f8e" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=039e1c02" />
+    <script src="_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="DynamicArray" href="DynamicArray.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="toctree-wrapper compound">
+</div>
+<section id="vda">
+<h1>Vda<a class="headerlink" href="#vda" title="Link to this heading">¶</a></h1>
+<!-- [![Documentation](https://img.shields.io/badge/Docs-Vda-blue)]() --><section id="dynamicarray-t">
+<h2>DynamicArray\ <span class="raw-html-m2r"><T></span><a class="headerlink" href="#dynamicarray-t" title="Link to this heading">¶</a></h2>
+<p>A generic dynamic array library that resembles the generic List<span class="raw-html-m2r"><T></span> in C# with the added functionality of allowing value types such as Structs to have their fields be directly edited without the need to create a new object with the changes made and then assign that object to the reference location within the array.</p>
+<section id="example-usage">
+<h3>Example Usage<a class="headerlink" href="#example-usage" title="Link to this heading">¶</a></h3>
+<div class="highlight-C# notranslate"><div class="highlight"><pre><span></span><span class="n">DynamicArray</span><span class="o">&lt;</span><span class="n">Employee</span><span class="o">&gt;</span><span class="w"> </span><span class="n">dynamicArray</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">DynamicArray</span><span class="p">();</span>
+<span class="n">dynamicArray</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">Employee</span><span class="p">(</span><span class="m">4892</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Sarah&quot;</span><span class="p">,</span><span class="w"> </span><span class="m">10000</span><span class="p">));</span>
+<span class="n">dynamicArray</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">Employee</span><span class="p">(</span><span class="m">39</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Benjamin&quot;</span><span class="p">,</span><span class="w"> </span><span class="m">7500</span><span class="p">));</span>
+<span class="n">dynamicArray</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">Employee</span><span class="p">(</span><span class="m">192</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Alex&quot;</span><span class="p">,</span><span class="w"> </span><span class="m">11000</span><span class="p">));</span>
+
+<span class="n">dynamicArray</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Walter&quot;</span><span class="p">;</span>
+<span class="n">dynamicArray</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Salary</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">8750</span><span class="p">;</span>
+<span class="n">dynamicArray</span><span class="p">[</span><span class="m">2</span><span class="p">].</span><span class="n">Salary</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">15000</span><span class="p">;</span>
+
+<span class="k">struct</span><span class="w"> </span><span class="nc">Employee</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">IEquatable</span><span class="o">&lt;</span><span class="n">Employee</span><span class="o">&gt;</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">Id</span><span class="p">;</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">Name</span><span class="p">;</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">Salary</span><span class="p">;</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="nf">Employee</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">salary</span><span class="p">)</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="n">Id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">id</span><span class="p">;</span>
+<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="n">Name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">name</span><span class="p">;</span>
+<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="n">Salary</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">salary</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">Equals</span><span class="p">(</span><span class="n">Employee</span><span class="w"> </span><span class="n">other</span><span class="p">)</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">Id</span><span class="p">.</span><span class="n">Equals</span><span class="p">(</span><span class="n">other</span><span class="p">.</span><span class="n">Id</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">Vda</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="DynamicArray.html">DynamicArray</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+      <li>Next: <a href="DynamicArray.html" title="next chapter">DynamicArray</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, holdoffear.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
