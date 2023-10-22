@@ -1,5 +1,3 @@
-using System.IO.IsolatedStorage;
-
 namespace Vda.Tests
 {
     [TestClass]
@@ -177,7 +175,6 @@ namespace Vda.Tests
             Assert.AreEqual(resultB, inputArray[indexA]);
         }
     }
-
     struct Employee : IEquatable<Employee>
     {
         public int Id;
@@ -189,7 +186,6 @@ namespace Vda.Tests
             this.Name = name;
             this.Salary = salary;
         }
-
         public bool Equals(Employee other)
         {
             return this.Id.Equals(other.Id);
