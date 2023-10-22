@@ -8,7 +8,7 @@
     <member refid="class_dynamic_array_1a9f83e4192eb01b2c0631ef67e6ba3f38" kind="function"><name>DynamicArray</name></member>
     <member refid="class_dynamic_array_1a8c1afe4c5e9f45f2e38f280b5aa6e089" kind="function"><name>Add</name></member>
     <member refid="class_dynamic_array_1ab5872fd21a7d6bf9ba90379ab16833bb" kind="function"><name>Contains</name></member>
-    <member refid="class_dynamic_array_1a1bb47e86b890ffb02e094c1d0888a0c6" kind="function"><name>Remove</name></member>
+    <member refid="class_dynamic_array_1afa8ee0189e7ef06f58eb93f8f2d002bb" kind="function"><name>Remove</name></member>
     <member refid="class_dynamic_array_1a6d4dfcddcea20b62bb042f2011900491" kind="function"><name>RemoveAt</name></member>
     <member refid="class_dynamic_array_1af3f96c8124a361afad6071b4811f7668" kind="function"><name>CreateSpan</name></member>
     <member refid="class_dynamic_array_1a78266a32cc70ad0c815c5ec3143e9b4c" kind="function"><name>Resize&lt; T2 &gt;</name></member>

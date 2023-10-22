@@ -40,6 +40,11 @@
 <dd><div class="breathe-sectiondef docutils container">
 <p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
 <dl class="cs function">
+<dt class="sig sig-object cs" id="function-DynamicArray.DynamicArray">
+<span class="target" id="class_dynamic_array_1a9f83e4192eb01b2c0631ef67e6ba3f38"></span><span class="sig-name descname"><span class="pre">DynamicArray</span></span> <span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#function-DynamicArray.DynamicArray" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="cs function">
 <dt class="sig sig-object cs" id="function-DynamicArray.Add">
 <span class="target" id="class_dynamic_array_1a8c1afe4c5e9f45f2e38f280b5aa6e089"></span><span class="pre">void</span> <span class="sig-name descname"><span class="pre">Add</span></span> <span class="sig-paren">(</span><span class="pre">T</span> <em><span class="pre">item</span></em><span class="sig-paren">)</span><a class="headerlink" href="#function-DynamicArray.Add" title="Link to this definition">¶</a></dt>
 <dd></dd></dl>
@@ -51,7 +56,7 @@
 
 <dl class="cs function">
 <dt class="sig sig-object cs" id="function-DynamicArray.Remove">
-<span class="target" id="class_dynamic_array_1a1bb47e86b890ffb02e094c1d0888a0c6"></span><span class="pre">void</span> <span class="sig-name descname"><span class="pre">Remove</span></span> <span class="sig-paren">(</span><span class="pre">T</span> <em><span class="pre">item</span></em><span class="sig-paren">)</span><a class="headerlink" href="#function-DynamicArray.Remove" title="Link to this definition">¶</a></dt>
+<span class="target" id="class_dynamic_array_1afa8ee0189e7ef06f58eb93f8f2d002bb"></span><span class="pre">bool</span> <span class="sig-name descname"><span class="pre">Remove</span></span> <span class="sig-paren">(</span><span class="pre">T</span> <em><span class="pre">item</span></em><span class="sig-paren">)</span><a class="headerlink" href="#function-DynamicArray.Remove" title="Link to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="cs function">
@@ -97,38 +102,37 @@
 <dl class="cs class">
 <dt class="sig sig-object cs">
 <span class="target" id="class_dynamic_array"></span><em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">DynamicArray</span></span><span class="pre">&lt;</span><span class="pre">T</span><span class="pre">&gt;</span></dt>
-<dd><p>A class that represents a dynamic array </p>
+<dd><p>A class that represents a dynamic array. If an item being added exceeds the length of the dynamic array, then the dynamic array will be resized to twice that of its current size. </p>
 <div class="breathe-sectiondef docutils container">
 <p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
 <dl class="cs function">
-<dt class="sig sig-object cs" id="function-DynamicArray.DynamicArray">
-<span class="target" id="class_dynamic_array_1a9f83e4192eb01b2c0631ef67e6ba3f38"></span><span class="sig-name descname"><span class="pre">DynamicArray</span></span> <span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#function-DynamicArray.DynamicArray" title="Link to this definition">¶</a></dt>
-<dd></dd></dl>
+<dt class="sig sig-object cs">
+<span class="target" id="class_dynamic_array_1a9f83e4192eb01b2c0631ef67e6ba3f38"></span><span class="sig-name descname"><span class="pre">DynamicArray</span></span> <span class="sig-paren">(</span><span class="sig-paren">)</span></dt>
+<dd><p>Default constructor </p>
+</dd></dl>
 
 <dl class="cs function">
 <dt class="sig sig-object cs">
 <span class="target" id="class_dynamic_array_1a8c1afe4c5e9f45f2e38f280b5aa6e089"></span><span class="pre">void</span> <span class="sig-name descname"><span class="pre">Add</span></span> <span class="sig-paren">(</span><span class="pre">T</span> <em><span class="pre">item</span></em><span class="sig-paren">)</span></dt>
-<dd><p>Adds an item of type T to DataArray </p>
+<dd><p>The object to be added to the end of the DynamicArray&lt;T&gt; </p>
 </dd></dl>
 
 <dl class="cs function">
 <dt class="sig sig-object cs">
 <span class="target" id="class_dynamic_array_1ab5872fd21a7d6bf9ba90379ab16833bb"></span><span class="pre">bool</span> <span class="sig-name descname"><span class="pre">Contains</span></span> <span class="sig-paren">(</span><span class="pre">T</span> <em><span class="pre">item</span></em><span class="sig-paren">)</span></dt>
-<dd><p>Determines whether the item of type T exists within DataArray </p>
+<dd><p>Determines whether an element is in the DynamicArray&lt;T&gt;. </p>
 </dd></dl>
 
 <dl class="cs function">
 <dt class="sig sig-object cs">
-<span class="target" id="class_dynamic_array_1a1bb47e86b890ffb02e094c1d0888a0c6"></span><span class="pre">void</span> <span class="sig-name descname"><span class="pre">Remove</span></span> <span class="sig-paren">(</span><span class="pre">T</span> <em><span class="pre">item</span></em><span class="sig-paren">)</span></dt>
-<dd><p>Removes item of type T from DataArray </p>
+<span class="target" id="class_dynamic_array_1afa8ee0189e7ef06f58eb93f8f2d002bb"></span><span class="pre">bool</span> <span class="sig-name descname"><span class="pre">Remove</span></span> <span class="sig-paren">(</span><span class="pre">T</span> <em><span class="pre">item</span></em><span class="sig-paren">)</span></dt>
+<dd><p>Removes the first occurrence of a specific object from the DynamicArray&lt;T&gt;. </p>
 </dd></dl>
 
 <dl class="cs function">
 <dt class="sig sig-object cs">
 <span class="target" id="class_dynamic_array_1a6d4dfcddcea20b62bb042f2011900491"></span><span class="pre">void</span> <span class="sig-name descname"><span class="pre">RemoveAt</span></span> <span class="sig-paren">(</span><span class="pre">int</span> <em><span class="pre">index</span></em><span class="sig-paren">)</span></dt>
-<dd><p>Removes item of type T from index</p>
-<p>Note*: Throws exception if index is &lt; 0 or &gt; length</p>
-<p>~length refers to the field length of the class~ </p>
+<dd><p>Removes the element at the specified index of the DynamicArray&lt;T&gt;. </p>
 </dd></dl>
 
 </div>
@@ -137,13 +141,13 @@
 <dl class="cs property">
 <dt class="sig sig-object cs">
 <span class="target" id="class_dynamic_array_1abca4ff22f80750b77d729bca63c35011"></span><span class="pre">int</span> <span class="sig-name descname"><span class="pre">Length</span></span> <span class="pre">{</span> <em class="property"><span class="pre">get;</span> <span class="pre">set;</span></em> <span class="pre">}</span></dt>
-<dd><p>Public accessor for length variable. </p>
+<dd><p>Gets the number elements in the DynamicArray&lt;T&gt; </p>
 </dd></dl>
 
 <dl class="cs property">
 <dt class="sig sig-object cs">
 <span class="target" id="class_dynamic_array_1aca4b16b1dfc8ba98067bc78d30753f8c"></span><span class="sig-name descname"><span class="pre">ref</span> <span class="pre">T</span> <span class="pre">this[int</span> <span class="pre">i]</span> <span class="pre">{get;set;}</span></span></dt>
-<dd><p>The public accessor for DataArray. Returns a reference to DataArray </p>
+<dd><p>Gets or sets the element at the specified index. </p>
 </dd></dl>
 
 </div>
