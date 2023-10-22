@@ -1,7 +1,7 @@
 # Vda
 
-[![Documentation](https://img.shields.io/badge/Docs-Vda-blue)](http://htmlpreview.github.io/?https://github.com/holdoffear/Vda/blob/main/docs/build/html/index.html)
-
+<!-- [![Documentation](https://img.shields.io/badge/Docs-Vda-blue)](http://htmlpreview.github.io/?https://github.com/holdoffear/Vda/blob/main/docs/build/html/index.html) -->
+<a href="http://htmlpreview.github.io/?https://github.com/holdoffear/Vda/blob/main/docs/build/html/index.html" target="_blank">![Documentation](https://img.shields.io/badge/Docs-Vda-blue)</a>
 
 ## DynamicArray\<T>
 
