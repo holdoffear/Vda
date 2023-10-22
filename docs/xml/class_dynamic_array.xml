@@ -17,11 +17,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Variable: DataArray Array of type T </para>
+<para>Array of type T </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="16" column="19" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="16" bodyend="-1"/>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="15" column="19" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_dynamic_array_1a89abaedc16fc0a009815cf43cfd50ebe" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -32,11 +32,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Variable: length The number of elements in the DataArray </para>
+<para>The number of elements in the DataArray </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="21" column="21" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="21" bodyend="-1"/>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="19" column="21" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="19" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="property">
@@ -49,11 +49,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Property: length Public accessor for length variable. </para>
+<para>Public accessor for length variable. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="26" column="20" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="26" bodyend="26"/>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="23" column="20" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="23" bodyend="23"/>
       </memberdef>
       <memberdef kind="property" id="class_dynamic_array_1aca4b16b1dfc8ba98067bc78d30753f8c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>ref T</type>
@@ -64,11 +64,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Operator: Indexer The public accessor for DataArray. Returns a reference to DataArray </para>
+<para>The public accessor for DataArray. Returns a reference to DataArray </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="36" column="22" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="37" bodyend="46"/>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="32" column="22" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="33" bodyend="42"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="27" column="16" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="27" bodyend="31"/>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="24" column="16" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="24" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="class_dynamic_array_1a8c1afe4c5e9f45f2e38f280b5aa6e089" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -99,11 +99,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Function: Add Adds an item of type T to DataArray </para>
+<para>Adds an item of type T to DataArray </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="51" column="21" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="51" bodyend="59"/>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="46" column="21" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="46" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="class_dynamic_array_1ab5872fd21a7d6bf9ba90379ab16833bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -118,11 +118,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Function: Contains Determines whether the item of type T exists within DataArray </para>
+<para>Determines whether the item of type T exists within DataArray </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="64" column="21" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="64" bodyend="67"/>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="58" column="21" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="58" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="class_dynamic_array_1a1bb47e86b890ffb02e094c1d0888a0c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -137,11 +137,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Function: Remove Removes item of type T from DataArray </para>
+<para>Removes item of type T from DataArray </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="84" column="21" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="84" bodyend="88"/>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="76" column="21" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="76" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="class_dynamic_array_1a6d4dfcddcea20b62bb042f2011900491" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -156,13 +156,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Function: RemoveAt Removes item of type T from index</para>
+<para>Removes item of type T from index</para>
 <para>Note*: Throws exception if index is &lt; 0 or &gt; length</para>
 <para>~length refers to the field length of the class~ </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="97" column="21" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="97" bodyend="105"/>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="88" column="21" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="88" bodyend="96"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -187,11 +187,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Function: CreateSpan Creates a Span of type T from provided array from start index to provided length </para>
+<para>Creates a Span of type T from provided array from start index to provided length </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="72" column="28" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="72" bodyend="79"/>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="65" column="28" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="65" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="class_dynamic_array_1a78266a32cc70ad0c815c5ec3143e9b4c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -210,11 +210,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Function: Resize Resizes a given array of type T2 to provided newSize </para>
+<para>Resizes a given array of type T2 to provided newSize </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="110" column="23" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="110" bodyend="113"/>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="100" column="23" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="100" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="class_dynamic_array_1a09b8308b1936dc4d1c93850ac5ecd293" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -237,11 +237,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Function: SwapIndices Swaps position of element at indexA with position of element at indexB within the provided array </para>
+<para>Swaps position of element at indexA with position of element at indexB within the provided array </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="119" column="28" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="119" bodyend="124"/>
+        <location file="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" line="108" column="28" bodyfile="F:/Windows/Documents/software_projects/Vda/src/Vda/DynamicArray.cs" bodystart="108" bodyend="113"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

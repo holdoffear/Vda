@@ -1,6 +1,10 @@
 DynamicArray
 ============
 
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+
 .. doxygenclass:: DynamicArray
    :project: Vda
    :outline:
@@ -10,5 +14,5 @@ DynamicArray
 
 .. doxygenclass:: DynamicArray
    :project: Vda
-   :undoc-members:
    :members:
+   :undoc-members:
