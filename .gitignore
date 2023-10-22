@@ -1,5 +1,7 @@
 #tests
+tests/Vda.Tests/obj/
 tests/Vda.Tests/bin/
 
 #src
 src/Vda/bin/
+src/Vda/obj/
