@@ -1,5 +1,8 @@
 # Vda
 
+[![Documentation](https://img.shields.io/badge/Docs-Vda-blue)](http://htmlpreview.github.io/?https://github.com/holdoffear/Vda/blob/main/docs/build/html/index.html)
+
+
 ## DynamicArray\<T>
 
 A generic dynamic array library that resembles the generic List<T> in C# with the added functionality of allowing value types such as Structs to have their fields be directly edited without the need to create a new object with the changes made and then assign that object to the reference location within the array.
