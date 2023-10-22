@@ -10,17 +10,14 @@
     public class DynamicArray<T>
     {
         /**
-            Variable: DataArray
             Array of type T
         */
         private T[] DataArray;
         /**
-            Variable: length
             The number of elements in the DataArray
         */
         private int length;
         /**
-            Property: length
             Public accessor for length variable.
         */
         public int Length{get{return length;}}
@@ -30,7 +27,6 @@
             length = 0;
         }
         /**
-            Operator: Indexer
             The public accessor for DataArray. Returns a reference to DataArray
         */
         public ref T this[int i]
@@ -45,7 +41,6 @@
             }
         }
         /**
-            Function: Add
             Adds an item of type T to DataArray
         */
         public void Add(T item)
@@ -58,7 +53,6 @@
             length++;
         }
         /**
-            Function: Contains
             Determines whether the item of type T exists within DataArray
         */
         public bool Contains(T item)
@@ -66,7 +60,6 @@
             return CreateSpan(DataArray, 0, length).ToArray().Contains(item);
         }
         /**
-            Function: CreateSpan
             Creates a Span of type T from provided array from start index to provided length
         */
         static public Span<T> CreateSpan(T[] array, int start, int length)
@@ -78,7 +71,6 @@
             return new Span<T>(new T[]{});
         }
         /**
-            Function: Remove
             Removes item of type T from DataArray
         */
         public void Remove(T item)
@@ -87,7 +79,6 @@
             RemoveAt(index);
         }
         /**
-            Function: RemoveAt
             Removes item of type T from index
             
             *Note*: Throws exception if index is < 0 or > length
@@ -104,7 +95,6 @@
             length--;
         }
         /**
-            Function: Resize
             Resizes a given array of type T2 to provided newSize
         */
         static public void Resize<T2>(ref T2[] array, int newSize)
@@ -112,7 +102,6 @@
             Array.Resize(ref array, newSize);
         }
         /**
-            Function: SwapIndices
             Swaps position of element at indexA with position of element at indexB
             within the provided array
         */
