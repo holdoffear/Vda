@@ -5,7 +5,8 @@
 {
     /**
         \class DynamicArray<T>
-        A class that represents a dynamic array
+        A class that represents a dynamic array.
+        If an item being added exceeds the length of the dynamic array, then the dynamic array will be resized to twice that of its current size.
     */
     public class DynamicArray<T>
     {
@@ -21,9 +22,12 @@
             Gets the number elements in the DynamicArray<T>
         */
         public int Length{get{return length;}}
+        /**
+            Default constructor
+        */
         public DynamicArray()
         {
-            DataArray = new T[0];
+            DataArray = new T[1];
             length = 0;
         }
         /**
@@ -47,7 +51,7 @@
         {
             if(DataArray.Length-1 < length)
             {
-                Resize(ref DataArray, DataArray.Length+1);
+                Resize(ref DataArray, DataArray.Length*2);
             }
             DataArray[length] = item;
             length++;
