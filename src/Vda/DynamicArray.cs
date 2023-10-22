@@ -18,7 +18,7 @@
         */
         private int length;
         /**
-            Public accessor for length variable.
+            Gets the number elements in the DynamicArray<T>
         */
         public int Length{get{return length;}}
         public DynamicArray()
@@ -27,7 +27,7 @@
             length = 0;
         }
         /**
-            The public accessor for DataArray. Returns a reference to DataArray
+            Gets or sets the element at the specified index.
         */
         public ref T this[int i]
         {
@@ -41,7 +41,7 @@
             }
         }
         /**
-            Adds an item of type T to DataArray
+            The object to be added to the end of the DynamicArray<T>
         */
         public void Add(T item)
         {
@@ -53,7 +53,7 @@
             length++;
         }
         /**
-            Determines whether the item of type T exists within DataArray
+            Determines whether an element is in the DynamicArray<T>.
         */
         public bool Contains(T item)
         {
@@ -71,7 +71,7 @@
             return new Span<T>(new T[]{});
         }
         /**
-            Removes item of type T from DataArray
+            Removes the first occurrence of a specific object from the DynamicArray<T>.
         */
         public void Remove(T item)
         {
@@ -79,11 +79,7 @@
             RemoveAt(index);
         }
         /**
-            Removes item of type T from index
-            
-            *Note*: Throws exception if index is < 0 or > length
-            
-            ~length refers to the field length of the class~
+            Removes the element at the specified index of the DynamicArray<T>.
         */
         public void RemoveAt(int index)
         {
