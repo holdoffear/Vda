@@ -73,10 +73,15 @@
         /**
             Removes the first occurrence of a specific object from the DynamicArray<T>.
         */
-        public void Remove(T item)
+        public bool Remove(T item)
         {
             int index = Array.IndexOf(DataArray, item);
+            if(index < 0)
+            {
+                return false;
+            }
             RemoveAt(index);
+            return true;
         }
         /**
             Removes the element at the specified index of the DynamicArray<T>.
@@ -85,7 +90,7 @@
         {
             if (index < 0 || index >= length)
             {
-                throw new NotImplementedException();
+                throw new IndexOutOfRangeException();
             }
             SwapIndices(DataArray, index, length-1);
             length--;
