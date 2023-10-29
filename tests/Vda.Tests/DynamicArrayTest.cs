@@ -98,6 +98,27 @@ namespace Vda.Tests
             }
         }
         [TestMethod]
+        [DynamicData(nameof(EmployeeData))]
+        public void IndexOf_SingleEntity_ReturnsTrue(object[] inputData)
+        {
+            Employee[] employees = CreateEmployees(inputData);
+            if (employees.Length <= 0)
+            {
+                return;
+            }
+            int index = employees.Length/2;
+            Employee employee = employees[index];
+            DynamicArray<Employee> dynamicArray = new DynamicArray<Employee>();
+            for (int i = 0; i < employees.Length; i++)
+            {
+                dynamicArray.Add(employees[i]);
+            }
+            
+            int result = dynamicArray.IndexOf(employee);
+
+            Assert.AreEqual(index, result);
+        }
+        [TestMethod]
         [DataRow(new int[]{1, 5, 3, 8, 11}, 0, typeof(int))]
         [DataRow(new int[]{3, 2, 5, 8, 6, 4, 0}, 3, typeof(int))]
         [DataRow(new int[]{0, 3, 0, 1, 4, 7}, 5, typeof(int))]
@@ -173,6 +194,27 @@ namespace Vda.Tests
 
             Assert.AreEqual(resultA, inputArray[indexB]);
             Assert.AreEqual(resultB, inputArray[indexA]);
+        }
+        [TestMethod]
+        [DynamicData(nameof(EmployeeData))]
+        public void RemoveAt_SingleStruct_ReturnsTrue(object[] inputData)
+        {
+            Employee[] employees = CreateEmployees(inputData);
+            if (employees.Length <= 0)
+            {
+                return;
+            }
+            Employee newEmployee = employees[0];
+            DynamicArray<Employee> dynamicArray = new DynamicArray<Employee>();
+            dynamicArray.Add(newEmployee);
+            dynamicArray.RemoveAt(0);
+            dynamicArray.Add(newEmployee);
+            dynamicArray.Remove(newEmployee);
+            dynamicArray.Add(newEmployee);
+            dynamicArray.RemoveAt(0);
+
+            int result = dynamicArray.Length;
+            Assert.AreEqual(0, result);
         }
     }
     struct Employee : IEquatable<Employee>

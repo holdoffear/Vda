@@ -75,11 +75,18 @@
             return new Span<T>(new T[]{});
         }
         /**
+            Returns the index of the first occurrence of item
+        */
+        public int IndexOf(T item)
+        {
+            return Array.IndexOf(DataArray, item);
+        }
+        /**
             Removes the first occurrence of a specific object from the DynamicArray<T>.
         */
         public bool Remove(T item)
         {
-            int index = Array.IndexOf(DataArray, item);
+            int index = IndexOf(item);
             if(index < 0)
             {
                 return false;
@@ -94,7 +101,7 @@
         {
             if (index < 0 || index >= length)
             {
-                throw new IndexOutOfRangeException();
+                throw new IndexOutOfRangeException($"Provided index: {index} is out of array bounds");
             }
             SwapIndices(DataArray, index, length-1);
             length--;
