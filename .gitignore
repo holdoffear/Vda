@@ -6,3 +6,5 @@ tests/Vda.Tests/TestResults/
 #src
 src/Vda/bin/
 src/Vda/obj/
+
+benchmarks/
