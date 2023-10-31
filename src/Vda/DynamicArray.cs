@@ -1,4 +1,7 @@
-﻿namespace Vda
+﻿using System;
+using System.Linq;
+
+namespace Vda
 /**
     \namespace Vda
 */
@@ -37,10 +40,6 @@
         {
             get
             {
-                if (i < 0 || i >= length)
-                {
-                    throw new NotImplementedException();
-                }
                 return ref DataArray[i];
             }
         }
@@ -119,7 +118,7 @@
         */
         public static void SwapIndices(Array array, int indexA, int indexB)
         {
-            dynamic? temp = array.GetValue(indexA);
+            dynamic temp = array.GetValue(indexA);
             array.SetValue(array.GetValue(indexB), indexA);
             array.SetValue(temp, indexB);
         }
