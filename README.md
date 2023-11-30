@@ -6,7 +6,7 @@
 
 ## DynamicArray\<T>
 
-A generic dynamic array library that resembles the generic List<T> in C# with the added functionality of allowing value types such as Structs to have their fields be directly edited without the need to create a new object with the changes made and then assign that object to the reference location within the array.
+A generic dynamic array library that resembles the generic List<T> in C# but instead, returns ref T by its indexer.
 
 ## Installation
 
